@@ -1,0 +1,1170 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Jost',sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+body ul li{
+    text-decoration: none;
+}
+html a{
+    text-decoration: none;
+    color: black;
+}
+.header_div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #ffd2ce;
+}
+.head_1{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+
+}
+.header_div .head_1 span{
+    border-right: 1px solid #000;
+    width: 7px;
+    height: 15px;
+    margin-top: 12px;
+}
+.head_1 ul{
+    display: flex;
+}
+.head_1 ul li{
+    display: flex;
+    height: 80%;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.cizgi1{
+    margin-right: 2rem;
+    border-right: 0.1rem solid rgb(0, 0, 0)
+}
+.head_1 ul li a{
+    display: flex;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.head_div1{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.header_div div{
+    margin: 0 5rem;
+}
+.head_div1 p .span_hdr{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.nav_logo{
+    display:flex;
+    margin: 2.5rem;
+    justify-content: space-around;
+    width: 97%;
+}
+.nav_analogo{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.nav_right img{
+    display: flex;
+    margin-left: 9.5rem;
+    width: 12rem;
+}
+form{
+    display: flex;
+    width: 41%;
+    margin-left: -9rem;
+}
+.urunler2 ul {
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 8rem;
+}
+.urunler2 ul li a {
+    color: #000;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-around;
+}
+.urunler2 ul li {
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.arama_motoru{
+    width: 100%;
+    height: 50%;
+
+    position: relative;
+}
+#search{
+    border:1px solid  rgb(169, 169, 166);
+   border-radius: 2px;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 1rem;
+}
+.arama_motoru input{
+    font-size: 1rem;
+    color: rgb(169, 169, 166);
+}
+.arama_motoru img{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    right: 0;
+    display: flex;
+    width: 1.9rem;
+}
+.img_user_shop{
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+}
+.img_user_shop div{
+    display: flex;
+    margin: 1rem;
+}
+.img_user_shop p{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: rgb(169, 169, 166);
+}
+.img_user_shop img{
+   margin-right: 0.8rem;
+}
+.down_arrow{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.urunler ul li{
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+    justify-content: space-around;
+}
+.urunler ul li a{
+    color: #000;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-around;
+}
+.urunler ul{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15rem;
+}
+ hr{
+   margin-top: 3rem;
+   color: rgb(169, 169, 166);
+}
+.bilgi-kutu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 1.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.bilgi-kutu div{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    
+}
+.bilgi-kutu img{
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 10%;
+    margin-left: 45%;
+    
+}
+.bilgi-kutu span{
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.bilgi-kutu p{
+    font-size: 1.6rem;
+    margin-left: 0.5rem;
+    text-align: center;
+}
+.cizgi{
+    margin-left: 5rem;
+    margin-right: 2rem;
+    border-right: 0.1rem solid rgb(0, 0, 0);
+}
+.art_resim {
+   width: 100%;
+   height: 100%;
+}
+.art_resim img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.h1_baslik h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 10rem;
+
+}
+.h1_baslik p{
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    margin-top: 2rem;
+}
+.h1_resim{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+.liste_urunler ul li a{
+    position: relative;
+}
+.liste_urunler ul li a:hover{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.liste_urunler ul li:hover > a::after{
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    border-bottom: 2px solid rgb(246, 142, 6);
+    transition: all 0.6s ease-out;
+    position: absolute;
+    right: 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.box4{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+.box_urunler{
+   display: flex;
+   width: 100%;
+   position: relative;
+   justify-content: space-around;
+   transition-property: transform;
+   transition-timing-function: var(--swiper-wrapper-transition-timing-function,initial);
+
+}
+.box_urunler img{
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    height: 60%;
+
+}
+.btn_ürün {
+    display: none;
+    margin: 0.2rem;
+    font-weight: bold;
+    background-color: #a8d8e7;
+    color: black;
+    border: 0px;
+    margin-left: 9rem;
+    position: absolute;
+    padding: 1.3rem;
+    text-decoration: none;
+    opacity:0;
+    transition:opacity 0.5s;
+}
+.btn_ürün1 {
+    display: none;
+    margin: 0.2rem;
+    font-weight: bold;
+    background-color: #a8d8e7;
+    color: black;
+    border: 0px;
+    margin-left: 7rem;
+    position: absolute;
+    padding: 1.3rem;
+    text-decoration: none;
+    opacity:0;
+    transition:opacity 0.5s;
+}
+.btn_ürün2 {
+    display: none;
+    margin: 0.2rem;
+    font-weight: bold;
+    background-color: #a8d8e7;
+    color: black;
+    border: 0px;
+    margin-left: 4rem;
+    position: absolute;
+    padding: 1.3rem;
+    text-decoration: none;
+    opacity:0;
+    transition:opacity 0.5s;
+}
+.btn_ürün3 {
+    display: none;
+    margin: 0.2rem;
+    font-weight: bold;
+    background-color: #a8d8e7;
+    color: black;
+    border: 0px;
+    margin-left: 9rem;
+    position: absolute;
+    padding: 1.3rem;
+    text-decoration: none;
+    opacity:0;
+    transition:opacity 0.5s;
+}
+.btn_ürün4 {
+    display: none;
+    margin: 0.2rem;
+    font-weight: bold;
+    background-color: #a8d8e7;
+    color: black;
+    border: 0px;
+    margin-left: 9rem;
+    position: absolute;
+    padding: 1.3rem;
+    text-decoration: none;
+    opacity:0;
+    transition:opacity 0.5s;
+}
+.box_urn:hover{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    cursor: pointer;
+    border: 1px solid rgb(169, 169, 166);
+}
+.box_urn:hover .btn_ürün{
+    opacity:1;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.box_urn:hover .btn_ürün1{
+    opacity:1;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.box_urn:hover .btn_ürün2{
+    opacity:1;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.box_urn:hover .btn_ürün3{
+    opacity:1;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.box_urn:hover .btn_ürün4{
+    opacity:1;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.box_urunler p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 7rem 0rem;
+}
+.down_arrow  img{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    width:3rem;
+    height: 3rem;
+    margin-top: 8%;
+    left: 0;
+}
+.down_arrow a img:hover{
+   background-color: rgba(39, 39, 39, 0.8);
+   border-radius: 3rem;
+}
+.down_arrow1 a img:hover{
+    background-color: rgba(39, 39, 39, 0.8);
+    border-radius: 3rem;
+ }
+.down_arrow1 img{
+    display: flex;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    z-index: 2;
+    margin-top: 9%;
+    right: 6rem;
+}
+.anasayfa-3 img{
+    display: flex;
+    width: 100%;
+}
+.urunler1 ul li {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+.urunler1 ul li a{
+    color: #000;
+    display: flex;
+    font-size: 1.6rem;
+    margin: 0 3rem;
+    justify-content: center;
+}
+.urunler1 ul{
+    justify-content: center;
+    display: flex;
+    padding: 0 10rem;
+}
+.container-5{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
+    position: relative;
+    justify-content: space-around;
+ 
+ }
+.container-5 img{
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+    width: 80%;
+    height: 50%;
+
+}
+.box5{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+.down_arrow3  img{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    width:3rem;
+    height: 3rem;
+    margin-top: 8%;
+    left: 0;
+}
+.down_arrow4 img{
+    display: flex;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    z-index: 2;
+    margin-top: 9%;
+    right: 4rem;
+}
+.down_arrow3 a img:hover{
+    background-color: rgba(39, 39, 39, 0.8);
+    border-radius: 3rem;
+ }
+ .down_arrow4 a img:hover{
+    background-color: rgba(39, 39, 39, 0.8);
+    border-radius: 3rem;
+ }
+ .conteiner-5p{
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-around;
+    text-align: center;
+ }
+ .container-5_1{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 2.5rem;
+ }
+ .container-5_1 p{
+    display: flex;
+    border: 0.1rem solid red;
+    color: red;
+    padding: 0.3rem;
+    margin-top: 0.7rem;
+    text-align: center;
+    font-weight: 600;
+    justify-content: space-around;
+    font-size: 1.5rem;
+
+ }
+ .conteiner-5_2{
+    display: flex;
+    flex-direction: column;
+ }
+ .conteiner-5_2 .cizgi_span{
+    font-weight: 400;
+    font-size: 1.3rem;
+    justify-content: space-around;
+    text-decoration: line-through;
+ }
+ .conteiner-5_2 span{
+    color: #000;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    justify-content: space-around;
+    margin-top: 0.2rem;
+
+ }
+ .nav_ansayfa-2 img{
+    display: flex;
+    width: 100%;
+ }
+ .yorum_kutu{
+    display: flex;
+ }
+ .yorum_kutu1{
+    display: flex;
+    flex-direction: column;
+ }
+ .yorum_kutu1 a img{
+    color: rgba(207, 189, 106);
+ }
+ .yorum_trh{
+    display: flex;
+    flex-direction: column;
+ }
+ .yorum_trh p{
+    font-size: 1.6rem;
+ }
+ .yorum_bold{
+    font-weight: 700;
+    margin-top: 0;
+ }
+ .yorum_p{
+    text-align:left;
+    margin-top: 0;
+    
+ }
+ .yorum_ana{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+ }
+ #art_renk{
+    background-color: #bdd0c4;
+ }
+ #art_renk1{
+    background-color: #f7e1d3;
+ }
+ #art_renk2{
+    background-color: #f5d2d3;
+ }
+ #art_renk3{
+    background-color: #dfccf1;
+ }
+ #art_renk4{
+    background-color: #b8cfe5;
+ }
+ .bilgi_kutu_renk{
+    gap: 0;
+ }
+ .inst_ana div{
+    display: flex;
+    width: 100%;
+ }
+ .inst_ana{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    margin-left: 4rem;
+    margin-right: 4rem;
+ }
+ .inst_ana img{
+    display: flex;
+    width: 100%;
+ }
+ .blog_anaktu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    margin-left: 4rem;
+    gap: 1.5rem;
+    margin-bottom: 10rem;
+    margin-right: 4rem;
+ }
+ .blog_anaktu img{
+    display: flex;
+    width: 100%;
+ }
+ .blog_anaktu span{
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 2rem;
+ }
+ .blog_anaktu p{
+    display: flex;
+    font-size: 1.2rem;
+ }
+ footer{
+    margin-top: 5rem;
+ }
+ .ftr_ana{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    margin-left: 23rem;
+    gap: 1.5rem;
+    margin-right: 23rem;
+ }
+ .ftr_ana h3{
+    display: flex;
+    margin-bottom: 0.1rem;
+    font-size: 1.4rem;
+ }
+ .ftr_ana ul{
+    margin: 0;
+    padding: 0;
+ }
+ .ftr_ana ul li{
+    text-decoration: none;
+    display: flex;
+ }
+ .ftr_ana ul li a{
+    font-size: 1.3rem;
+    line-height: 3rem;
+ }
+ .ftr_ana p{
+    display: flex;
+    font-size: 1.3rem;
+ }
+ .arama_motoru1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+ }
+ .ftr_form{
+    position: relative;
+    width: 100%;
+    margin-left: 0rem;
+ }
+ form a span{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: -2.6rem;
+    margin-left: 20rem;
+ }
+ #ftr_ara{
+   border:1px solid  rgb(169, 169, 166);
+   border-radius: 2px;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 1rem;
+ }
+ .ftr_ana1 ul li{
+    display: flex;
+ }
+ .ftr_ana img{
+    padding: 1rem;
+ }
+ .ftr_logo{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+ }
+ .ftr_ana1 div{
+    display: block;
+ }
+ .ftr_ana1 ul{
+    display: block;
+ }
+ .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    display: flex;
+ }
+
+/* responsive */
+@media(max-width:1156px){
+    .header_div div {
+         margin: 0rem; 
+    }
+    .ftr_ana1 ul li{
+        display: flex;
+    }
+    #footer-item1{
+        display: block;
+    }
+    #footer-item4{
+        display: block;
+    }
+    form{
+         margin-left: -7rem; 
+    }
+}
+@media(max-width:975px){
+.ftr_ana{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    position: relative;
+    margin-left: 0rem; 
+}
+.box_urunler img {
+    margin-left: 3rem;
+    width: 60%;
+    height: 50%;
+}
+.down_arrow img {
+    width: 3%;
+    height: 10%;
+}
+.down_arrow1 img{
+    width: 3%;
+    height: 10%;
+}
+.container-5 img {
+    margin-left: 1rem;
+    width: 80%;
+    margin-bottom: 0;
+    height: 50%;
+}
+.conteiner-5p{
+    font-size: 1.3rem;
+}
+.down_arrow3 img{
+    width: 3%;
+    height: 10%;
+    margin-top: 14%
+}
+.down_arrow4 img{
+    width: 3%;
+    height: 10%;
+    margin-top: 14%
+}
+.container-5_1{
+    margin-left: 0rem;
+}
+.ftr_ana1 h3{
+    margin-left: 0px;
+    background-color: #ffd2ce;
+    padding: 20px;
+}
+.ftr_ana1 ul {
+    display: none;
+}
+ .ftr_ana1 p{
+    margin-left: 5%;
+} 
+ .ftr_ana1 .ftr_form{
+    margin-left: 5%;
+    width: 55%;
+    margin-top: 2rem;
+} 
+/* .ftr_ana1 a span{
+    display: none;
+} */
+ .ftr_ana1 img {
+    margin-left: 5%;
+
+} 
+.ftr_logo {
+    justify-content: center;
+}
+.ftr_ana ul li a {
+    font-size: 1.6rem;
+    margin-left: 5%;
+}
+.head_1 ul li a{
+    padding-right: 0.6rem;
+}
+.btn_ürün1{
+    margin-left: 4rem;
+}
+.btn_ürün{
+    margin-left: 3rem;
+}
+.btn_ürün2{
+    margin-left: 0.8rem;
+}
+.btn_ürün3{
+    margin-left: 4rem;
+}
+.btn_ürün4{
+    margin-left: 4rem;
+}
+}
+@media(max-width:900px){
+    .head_1 {
+        width: 100%;
+        justify-content: center;
+    }
+    .header_div{
+        flex-direction: column;
+    }
+    .head_div1 {
+        width: 100%;
+        justify-content: center; 
+}
+.nav_logo {
+ margin: 0rem; 
+    position: relative;
+    margin-top: 2rem;
+}
+.nav_analogo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20%;
+}
+form {
+    display: flex;
+    position: absolute;
+    width: 50%;
+    margin-top: 7rem;
+    height: 100%;
+}
+.img_user_shop {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+.btn_ürün{
+    margin-left: 3rem;
+}
+    .urunler ul{
+        display: none;
+    }
+    hr {
+        margin-top: 10rem;}
+        .ftr_ana1 .ftr_form {
+            width: 45%; 
+        }
+        .btn_ürün1 {
+            margin-left: 2.5rem;
+            padding: 1rem;
+        }
+        .btn_ürün{
+            margin-left: 2.5rem;
+            padding: 1rem;
+        }
+        .btn_ürün2 {
+            margin-left: 1.5rem;
+            padding: 1rem;
+        }
+        .btn_ürün3 {
+            margin-left: 2.5rem;
+            padding: 1rem;
+        }
+        .btn_ürün4 {
+            margin-left: 2.5rem;
+            padding: 1rem;
+        }
+
+}
+@media (max-width: 800px){
+    .box_urunler {
+        flex-wrap: wrap;
+    }
+    .btn_ürün1 {
+        margin-left: 8.5rem;
+    }
+    .btn_ürün2 {
+        margin-left: 3.5rem;
+    }
+    .btn_ürün3 {
+        margin-left: 8.5rem;
+    }
+
+    .btn_ürün4{
+        margin-left: 10rem;
+    }
+    .btn_ürün {
+        margin-left: 4.5rem;
+    }
+    .down_arrow img {
+        width: 3%;
+        height: 4%;
+    }
+    .down_arrow1 img {
+        width: 3%;
+        height: 4%;
+    }
+}
+ 
+@media(max-width:600px) {
+    html{
+        font-size: 62.5%;
+    }
+    .header_div {
+        flex-direction: column;
+        width: 100%;
+    }
+    .header_div .head_1 span {
+        height: 11px;
+    }
+    .header_div div{
+        margin: 0;
+    }
+    .head_1 ul {
+        padding: 0;
+    }
+    .head_1{
+        width: 100%;
+        justify-content: center;
+    }
+    .head_1 ul li a{
+        font-size: 1rem;
+    }
+    .head_1 ul li{
+        height: 88%;
+    }
+    .head_div1 {
+        width: 100%;
+        font-size: 1rem;
+        justify-content: center;
+    }
+    form {
+        position: absolute;
+        width: 80%;
+        margin-top: 8rem;
+        height: 50%;
+        margin-left: 1rem;
+    }
+    .nav_analogo {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 2rem;
+        flex-direction: column;
+        width: 100%;
+    }
+    .img_user_shop {
+        width: 100%;
+    }
+    .arama_motoru {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .nav_logo {
+        margin: 2rem 0;
+        width: 95%;
+    }
+    .down_arrow{
+        display: none;
+    }
+    .down_arrow1{
+        display: none;
+    }
+    .down_arrow3{
+        display: none;
+    }
+    .down_arrow4{
+        display: none;
+    }
+    .urunler ul {
+      display: none;
+    }
+    .urunler ul li a {
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    .h1_resim {
+        margin-bottom: 3rem;
+    }
+    hr {
+        margin-top: 10rem;
+        color: rgb(169, 169, 166);
+    }
+    .cizgi {
+        border-right: 0;
+    }
+    .container-5{
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+    }
+    .container-5 img {
+        margin-left: 25%;
+        width: 50%;
+        height: 50%;
+    }
+    .container-5_1 {
+        margin-left: 30%;
+    }
+    .down_arrow3 img{
+        width: 4%;
+        height: 1%;
+    }
+    .down_arrow4 img{
+        width: 4%;
+        margin-top: -33rem;
+        margin-bottom: 0;
+        height: 1%;
+    }
+    .conteiner-5_2 span {
+    margin-left: 30%;
+}
+.box_urunler{
+    flex-direction: column;
+}
+.btn_ürün{
+    margin-left: 16rem;
+}
+.box_urunler img {
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+.down_arrow img{
+    width: 4%;
+    height: 1%;
+}
+.down_arrow1 img{
+    width: 4%;
+    height: 1%;
+}
+.btn_ürün1{
+    margin-left: 33%;
+}
+.btn_ürün{
+    margin-left: 33%;
+}
+.btn_ürün2{
+    margin-left: 33%;
+}
+.btn_ürün3{
+    margin-left: 33%;
+}
+.btn_ürün4{
+    margin-left: 33%;
+}
+}
+@media(max-width:445px){
+    .nav_logo {
+        margin: 2rem 0;
+        width: 100%;
+        flex-direction: column;
+    }
+    .header_div .head_1 span {
+        height: 11px;
+    }
+    .nav_analogo {
+         margin-left: 0rem; 
+    }
+    form {
+        margin-top: 15rem;
+        margin-left: 8%;
+    }
+    .img_user_shop {
+        display: flex;
+       justify-content: center;
+    }
+    .analogo a img{
+        justify-content: center;
+        display: flex;
+        margin-left: 27%;
+    }
+    .nav_right img{
+        display: flex;
+        margin-left: 50%;
+    }
+    .box_urunler {
+        flex-direction: column;
+    }
+    .box_urunler img {
+        margin-left: 20%;
+         margin-top: 0rem; 
+         width: 50%;
+        height: 50%;
+    }
+    .down_arrow img {
+            display: flex;
+            position: absolute;
+            z-index: 2;
+            width: 3rem;
+            height: 3rem;
+            margin-top: 20%;
+            left: -5rem;
+    }
+    .down_arrow1 img {
+        display: flex;
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        z-index: 2;
+        margin-top: 9%;
+        right: 6rem;
+    }
+    .urunler ul{
+        display: none;
+    }
+    .urunler2 ul{
+        display: none;
+    }
+    .urunler1 ul {
+        justify-content: center;
+        display: flex;
+        padding: 0 10rem;
+    }
+    .urunler1 ul li a {
+        font-size: 1.5rem;
+        margin: 0 1rem;
+    }
+    .yorum_trh p {
+        font-size: 1.3rem;
+    }
+    .container-5 {
+        flex-direction: column;
+    }
+    .ftr_ana {
+        margin-left: 0rem; 
+        margin-right: 0rem;
+    }
+    .ftr_ana1 .ftr_form{
+        width: 77%;
+    }
+    form a span {
+        margin-left: 22rem;
+    }
+}
+
+
+
+
+
+
